@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "installCommand": "pnpm install --unsafe-perm",
+  "installCommand": "npm install",
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
   ]

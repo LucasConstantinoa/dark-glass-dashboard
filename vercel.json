@@ -1,8 +1,0 @@
-{
-  "version": 2,
-  "installCommand": "npm install --legacy-peer-deps --no-audit --no-fund",
-  
-  "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
-  ]
-}

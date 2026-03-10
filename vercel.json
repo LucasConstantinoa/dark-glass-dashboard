@@ -1,0 +1,5 @@
+{
+  "buildCommand": "pnpm install --ignore-scripts=false && vite build",
+  "outputDirectory": "dist/public",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
